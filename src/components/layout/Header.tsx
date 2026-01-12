@@ -19,7 +19,7 @@ const navLinks = [
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
-  const { whatsappNumber } = getSiteSettings();
+  const { whatsappNumber, contactPhone } = getSiteSettings();
 
   const isActive = (path: string) => location.pathname === path;
 
@@ -58,7 +58,7 @@ const Header = () => {
 
           {/* CTA Buttons */}
           <div className="flex items-center gap-2">
-            <a href="tel:+919876543210" className="hidden md:flex">
+            <a href={`tel:${contactPhone}`} className="hidden md:flex">
               <Button variant="outline" size="sm" className="gap-2">
                 <Phone className="w-4 h-4" />
                 <span className="hidden xl:inline">Call Now</span>
@@ -102,10 +102,10 @@ const Header = () => {
                   </nav>
 
                   <div className="flex flex-col gap-3 pt-4 border-t border-border">
-                    <a href="tel:+919876543210">
+                    <a href={`tel:${contactPhone}`}>
                       <Button variant="outline" className="w-full gap-2">
                         <Phone className="w-4 h-4" />
-                        Call: +91 98765 43210
+                        Call: {contactPhone}
                       </Button>
                     </a>
                     <a

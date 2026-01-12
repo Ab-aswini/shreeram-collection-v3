@@ -6,7 +6,19 @@ import { MapPin, Phone, Clock, Mail } from "lucide-react";
 import { getSiteSettings } from "@/data/site";
 
 const Contact = () => {
-  const { contactMapUrl } = getSiteSettings();
+  const {
+    contactMapUrl,
+    contactAddress,
+    contactPhone,
+    contactEmail,
+    whatsappNumber
+  } = getSiteSettings();
+
+  // Helper to format address with line breaks
+  const FormattedAddress = () => (
+    <span dangerouslySetInnerHTML={{ __html: contactAddress.replace(/\n/g, '<br />') }} />
+  );
+
   return (
     <Layout>
       {/* Header */}
@@ -36,9 +48,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold mb-1">Store Address</h3>
                     <p className="text-muted-foreground">
-                      123, Main Market Road,<br />
-                      Near City Center,<br />
-                      Your City - 123456
+                      <FormattedAddress />
                     </p>
                   </div>
                 </div>
@@ -49,8 +59,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Phone</h3>
-                    <a href="tel:+919876543210" className="text-muted-foreground hover:text-primary transition-colors">
-                      +91 98765 43210
+                    <a href={`tel:${contactPhone}`} className="text-muted-foreground hover:text-primary transition-colors">
+                      {contactPhone}
                     </a>
                   </div>
                 </div>
@@ -74,8 +84,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Email</h3>
-                    <a href="mailto:info@shreeramcollection.com" className="text-muted-foreground hover:text-primary transition-colors">
-                      info@shreeramcollection.com
+                    <a href={`mailto:${contactEmail}`} className="text-muted-foreground hover:text-primary transition-colors">
+                      {contactEmail}
                     </a>
                   </div>
                 </div>
@@ -88,7 +98,7 @@ const Contact = () => {
                   Get instant responses on WhatsApp. Ask about products, prices, or availability.
                 </p>
                 <a
-                  href="https://wa.me/919876543210?text=Hi! I'd like to know more about your products"
+                  href={`https://wa.me/${whatsappNumber}?text=Hi! I'd like to know more about your products`}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
