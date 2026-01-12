@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Application Title -->
+  <title>Shree Ram Collection | Fashion for Everyone</title>
+  <meta name="description"
+    content="Discover the latest trends in Men's, Women's, and Kids' wear at Shree Ram Collection. Quality clothing for every occasion." />
+  <meta name="author" content="Shree Ram Collection" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Shree Ram Collection | Fashion for Everyone" />
+  <meta property="og:description"
+    content="Discover the latest trends in Men's, Women's, and Kids' wear at Shree Ram Collection. Quality clothing for every occasion." />
+  <!-- Placeholder for actual OG image -->
+  <meta property="og:image" content="/images/hero-collection.jpg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Shree Ram Collection" />
+  <meta name="twitter:description"
+    content="Discover the latest trends in Men's, Women's, and Kids' wear at Shree Ram Collection." />
+  <meta name="twitter:image" content="/images/hero-collection.jpg" />
+
+  <!-- Favicon Links -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- Netlify Identity Widget -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>

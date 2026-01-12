@@ -1,0 +1,47 @@
+{
+  "heroImage": "/ram-collection-connect-v2/images/whatsapp_image_2026-01-10_at_4.38.47_pm-removebg-preview.png",
+  "socialLinks": [
+    "https://instagram.com",
+    "https://facebook.com"
+  ],
+  "contactPhone": "+91 94380 33823",
+  "brandName": "Shreeram Collection",
+  "contactMapUrl": "https://maps.app.goo.gl/WzGdNhguXAaBcJGi8",
+  "contactAddress": "SAMLEIMANDIR CHOWK, Balangir, Odisha 767001",
+  "whatsappNumber": "919438033823",
+  "seoTitle": "Shreeram Collection | Fashion for Everyone",
+  "categories": [
+    {
+      "id": "men",
+      "name": "Men's Wear",
+      "description": "Shirts, Kurtas & More",
+      "image": "/ram-collection-connect-v2/images/product-mens-kurta-bvcfkndf.jpg"
+    },
+    {
+      "id": "women",
+      "name": "Ladies Wear",
+      "description": "Suits, Kurtis & Dresses",
+      "image": "/ram-collection-connect-v2/images/product-womens-d-go9yji.jpg"
+    },
+    {
+      "id": "kids",
+      "name": "Kids Wear",
+      "description": "Ethnic & Casual Wear",
+      "image": "/ram-collection-connect-v2/images/product-kids-buaydcnm.jpg"
+    },
+    {
+      "id": "jeans",
+      "name": "Jeans",
+      "description": "Denims for All",
+      "image": "/ram-collection-connect-v2/images/product-jeans-br-cvidu.jpg"
+    },
+    {
+      "id": "sarees",
+      "name": "Sarees",
+      "description": "Silk & Cotton Sarees",
+      "image": "/ram-collection-connect-v2/images/product-saree-bnkuxhoy.jpg"
+    }
+  ],
+  "contactEmail": "info@shreeramcollection.com",
+  "seoDescription": "Discover the latest trends in Men's, Women's, and Kids' wear at Shreeram Collection."
+}

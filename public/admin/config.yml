@@ -1,0 +1,65 @@
+backend:
+  name: git-gateway
+  branch: main
+  identity_url: "https://shreeram-collection.netlify.app/.netlify/identity"
+  gateway_url: "https://shreeram-collection.netlify.app/.netlify/git/github"
+
+local_backend: true
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "site_settings"
+    label: "Site Settings"
+    files:
+      - name: "settings"
+        label: "Global Settings"
+        file: "src/content/site-settings.json"
+        fields:
+          - {label: "Brand Name", name: "brandName", widget: "string"}
+          - {label: "WhatsApp Number", name: "whatsappNumber", widget: "string", hint: "Format: 919876543210 (No spaces or +)"}
+          - {label: "SEO Title", name: "seoTitle", widget: "string"}
+          - {label: "SEO Description", name: "seoDescription", widget: "text"}
+          - {label: "Phone", name: "contactPhone", widget: "string"}
+          - {label: "Email", name: "contactEmail", widget: "string"}
+          - {label: "Address", name: "contactAddress", widget: "text"}
+          - {label: "Map URL", name: "contactMapUrl", widget: "string", hint: "Google Maps Share Link"}
+          - {label: "Social Links", name: "socialLinks", widget: "list"}
+          - {label: "Hero Image", name: "heroImage", widget: "image"}
+          - {label: "Categories", name: "categories", widget: "list", fields: [
+              {label: "ID (slug)", name: "id", widget: "string"},
+              {label: "Name", name: "name", widget: "string"},
+              {label: "Description", name: "description", widget: "string"},
+              {label: "Image", name: "image", widget: "image"}
+            ]}
+
+  - name: "promotions"
+    label: "Promotions"
+    files:
+      - name: "promo"
+        label: "Current Promotion"
+        file: "src/content/promotions.json"
+        fields:
+          - {label: "Enable", name: "enablePromotion", widget: "boolean", default: true}
+          - {label: "Text", name: "promotionText", widget: "string"}
+          - {label: "Type", name: "promotionType", widget: "select", options: ["banner", "popup"]}
+
+  - name: "products"
+    label: "Products"
+    folder: "src/content/products"
+    create: true
+    extension: "json"
+    slug: "{{name}}"
+    fields:
+      - {label: "Name", name: "name", widget: "string"}
+      - {label: "Category", name: "category", widget: "select", options: ["men", "women", "kids", "jeans", "sarees"]}
+      - {label: "Price", name: "price", widget: "number", value_type: "float", required: false}
+      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Images", name: "images", widget: "list", field: {label: "Image", name: "image", widget: "image"}}
+      - {label: "Sizes", name: "sizes", widget: "list"}
+      - {label: "Colors", name: "colors", widget: "list"}
+      - {label: "Fabric", name: "fabric", widget: "string", required: false}
+      - {label: "New Arrival", name: "isNew", widget: "boolean", default: false}
+      - {label: "Featured", name: "isFeatured", widget: "boolean", default: false}
+      - {label: "In Stock", name: "inStock", widget: "boolean", default: true}
