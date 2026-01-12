@@ -32,7 +32,11 @@ export const products: Product[] = productModules ? Object.entries(productModule
   const id = path.split('/').pop()?.replace('.json', '') || '';
   return {
     id,
-    ...(module?.default || {})
+    ...(module?.default || {}),
+    // Ensure arrays are never undefined
+    images: module?.default?.images || [],
+    colors: module?.default?.colors || [],
+    sizes: module?.default?.sizes || []
   };
 }) : [];
 

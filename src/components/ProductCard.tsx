@@ -61,7 +61,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
           <span className={`font-bold ${product.price ? 'text-primary text-lg' : 'text-muted-foreground text-sm'}`}>
             {formatPrice(product.price)}
           </span>
-          {product.colors.length > 1 && (
+          {product.colors?.length > 1 && (
             <span className="text-xs text-muted-foreground">
               {product.colors.length} colors
             </span>
