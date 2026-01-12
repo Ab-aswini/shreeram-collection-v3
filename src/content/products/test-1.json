@@ -1,0 +1,23 @@
+{
+  "fabric": "XYZ",
+  "price": 999,
+  "name": "TEST-1 ",
+  "colors": [
+    "Test-colour"
+  ],
+  "inStock": true,
+  "sizes": [
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "isNew": false,
+  "images": [
+    "/images/image.jpeg"
+  ],
+  "isFeatured": true,
+  "description": "test example",
+  "category": "kids"
+}

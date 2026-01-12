@@ -154,7 +154,7 @@ const Contact = () => {
                     <Input
                       id="phone"
                       type="tel"
-                      placeholder="+91 98765 43210"
+                      placeholder="Enter your phone number"
                       className="h-12"
                       required
                     />
