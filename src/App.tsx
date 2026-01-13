@@ -13,21 +13,25 @@ import NotFound from "./pages/NotFound";
 
 
 
+import { CartProvider } from "./context/CartContext";
+
 const App = () => (
   <TooltipProvider>
     <Toaster />
     <Sonner />
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
-      <Routes>
-        <Route path="/" element={<Index />} />
+    <CartProvider>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
+        <Routes>
+          <Route path="/" element={<Index />} />
 
-        <Route path="/products/:category" element={<ProductListing />} />
-        <Route path="/product/:id" element={<ProductDetail />} />
-        <Route path="/contact" element={<Contact />} />
-        {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </BrowserRouter>
+          <Route path="/products/:category" element={<ProductListing />} />
+          <Route path="/product/:id" element={<ProductDetail />} />
+          <Route path="/contact" element={<Contact />} />
+          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter>
+    </CartProvider>
   </TooltipProvider>
 );
 

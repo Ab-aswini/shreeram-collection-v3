@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { getImageUrl } from "@/lib/utils";
 import { getSiteSettings } from "@/data/site";
+import CartDrawer from "@/components/cart/CartDrawer";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -64,6 +65,9 @@ const Header = () => {
                 <span className="hidden xl:inline">Call Now</span>
               </Button>
             </a>
+
+            {/* Cart Drawer */}
+            <CartDrawer />
 
             {/* Mobile Menu */}
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
