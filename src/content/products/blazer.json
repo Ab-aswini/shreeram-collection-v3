@@ -1,0 +1,20 @@
+{
+  "price": 4800,
+  "name": "BLAZER",
+  "colors": [
+    "BLUE"
+  ],
+  "inStock": true,
+  "sizes": [
+    "36"
+  ],
+  "isNew": true,
+  "images": [
+    "/images/3.jpeg",
+    "/images/2.jpeg",
+    "/images/blazer.jpeg"
+  ],
+  "isFeatured": true,
+  "description": "Elevate your daily rotation with a piece that defines modern sophistication. Crafted with a precision-cut silhouette, this blazer bridges the gap between structured formalwear and effortless style. Whether you're leading a boardroom meeting or heading to a late-night dinner, its clean lines and premium finish ensure you’re the best-dressed person in the room.",
+  "category": "men"
+}
