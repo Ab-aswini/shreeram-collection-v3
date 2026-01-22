@@ -1,0 +1,24 @@
+{
+  "fabric": "CARGO PANT",
+  "price": 1400,
+  "name": "CARGO JEANS PANT",
+  "colors": [
+    "BLUE"
+  ],
+  "inStock": true,
+  "sizes": [
+    "30",
+    "32",
+    "34",
+    "36"
+  ],
+  "isNew": true,
+  "images": [
+    "/images/1111.jpeg",
+    "/images/2222.jpeg",
+    "/images/333.jpeg"
+  ],
+  "isFeatured": true,
+  "description": "\nDiscover Gap's stylish **cargo** **pants** collection, featuring versatile designs and comfortable fits for every occasion. Elevate your wardrobe with our range of colors and styles, perfect for casual outings or adventurous days. Shop now for the ultimate blend of fashion and …",
+  "category": "men"
+}
