@@ -1,0 +1,22 @@
+{
+  "price": 370,
+  "name": "BOYS SET",
+  "colors": [
+    "YELLOW",
+    "BLUE"
+  ],
+  "inStock": true,
+  "sizes": [
+    "1",
+    "2",
+    "3"
+  ],
+  "isNew": false,
+  "images": [
+    "/images/2.jpeg",
+    "/images/3.jpeg"
+  ],
+  "isFeatured": true,
+  "description": "\nBoys' sets provide coordinated, comfortable, and versatile outfits featuring matching tops and bottoms, such as t-shirt and shorts combos, hoodies with joggers, or shirt-and-trouser pairings. Often made from cotton, they are available in various styles including casual, athletic, and party wear suitable for different occasions and seasons",
+  "category": "kids"
+}
