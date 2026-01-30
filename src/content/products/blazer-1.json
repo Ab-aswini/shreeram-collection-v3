@@ -1,0 +1,26 @@
+{
+  "fabric": "cotton",
+  "price": 1440,
+  "name": "BLAZER",
+  "colors": [
+    "WHITEBLUE"
+  ],
+  "inStock": true,
+  "sizes": [
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "isNew": false,
+  "images": [
+    "/images/1.jpeg",
+    "/images/22.jpeg",
+    "/images/3.jpeg"
+  ],
+  "isFeatured": true,
+  "description": "\nKids blazers are tailored jackets designed for children, offering a **smart and sophisticated look** for various occasions, from formal events to casual outings. They blend comfort with style, often using **durable yet soft fabrics** to accommodate active children.",
+  "category": "kids"
+}
