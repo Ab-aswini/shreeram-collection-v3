@@ -1,0 +1,24 @@
+{
+  "fabric": "cotton",
+  "price": 130,
+  "name": "HALDI KURTI",
+  "colors": [
+    "YELLOW"
+  ],
+  "inStock": true,
+  "sizes": [
+    "36",
+    "38",
+    "40",
+    "42",
+    "44"
+  ],
+  "isNew": false,
+  "images": [
+    "/images/111111.png",
+    "/images/2222.png"
+  ],
+  "isFeatured": false,
+  "description": "\nA Haldi Kurti for a marriage is a specially chosen yellow-themed, comfortable, and vibrant ethnic garment worn by the bride, groom, or guests during the pre-wedding Haldi ceremony. This attire is designed to be comfortable for the joyous, often messy, ritual of applying turmeric paste (Haldi/Pithi) to skin to ensure a radiant glow.",
+  "category": "men"
+}
