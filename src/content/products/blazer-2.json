@@ -1,0 +1,26 @@
+{
+  "fabric": "cotton, fleece, polyester, and nylon.",
+  "price": 1130,
+  "name": "BLAZER",
+  "colors": [
+    "mauve pink",
+    "or light purple."
+  ],
+  "inStock": true,
+  "sizes": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+  ],
+  "isNew": true,
+  "images": [
+    "/images/4.jpeg"
+  ],
+  "isFeatured": true,
+  "description": "\nKids blazers are tailored jackets designed for children, offering a **smart and sophisticated look** for various occasions, from formal events to casual outings. They blend comfort with style, often using **durable yet soft fabrics** to accommodate active children.",
+  "category": "kids"
+}
