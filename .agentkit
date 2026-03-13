@@ -1,0 +1,19 @@
+{
+    "version": "3.6.2",
+    "store": "C:/Users/aswin/.agent-os/projects/8ec9ca2f1b8e",
+    "paths": {
+        "agents": "C:/Users/aswin/.agent-os/projects/8ec9ca2f1b8e/.agent-os/agents",
+        "rules": "C:/Users/aswin/.agent-os/projects/8ec9ca2f1b8e/.agent-os/rules",
+        "skills": "C:/Users/aswin/.agent-os/projects/8ec9ca2f1b8e/.agent-os/skills",
+        "config": "C:/Users/aswin/.agent-os/projects/8ec9ca2f1b8e/.agent-os/config",
+        "templates": "C:/Users/aswin/.agent-os/projects/8ec9ca2f1b8e/.agent-os/templates",
+        "workflows": "C:/Users/aswin/.agent-os/projects/8ec9ca2f1b8e/.agent-os/workflows",
+        "shared": "C:/Users/aswin/.agent-os/projects/8ec9ca2f1b8e/.agent-os/.shared",
+        "logs": "C:/Users/aswin/.agent-os/projects/8ec9ca2f1b8e/.agent-os/logs",
+        "memory": "C:/Users/aswin/.agent-os/projects/8ec9ca2f1b8e/memory",
+        "docs": "C:/Users/aswin/.agent-os/projects/8ec9ca2f1b8e/docs",
+        "scripts": "C:/Users/aswin/.agent-os/projects/8ec9ca2f1b8e/scripts"
+    },
+    "project": "D:/WEBSite/Sri - Ram - Collection/shree-ram-collection",
+    "created": "2026-03-13T08:21:57.227Z"
+}
