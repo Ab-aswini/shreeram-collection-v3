@@ -1,0 +1,24 @@
+{
+  "fabric": "COTTON",
+  "price": 1049,
+  "name": "SEQUEL SHIRT5103FX",
+  "colors": [
+    "WHITE"
+  ],
+  "inStock": true,
+  "sizes": [
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "isNew": true,
+  "images": [
+    "/images/whatsapp-image-2026-08-28-at-5.32.59-pm.jpeg",
+    "/images/whatsapp-image-2026-08-28-at-5.32.59-pm-1-.jpeg",
+    "/images/whatsapp-image-2026-08-28-at-5.35.00-pm.jpeg"
+  ],
+  "isFeatured": true,
+  "description": "SEQUEL Shirts are crafted with **premium-quality fabric**, modern designs and fine stitching. Stylish colours, a perfect fit and all-day comfort make them ideal for **office, casual outings, parties and special occasions**.",
+  "category": "men"
+}
